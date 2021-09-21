@@ -2,7 +2,7 @@
 
 Exercise for MSCH-C220, 21 September 2021
 
-This exercise is the first opportunity for you to experiment with juicy features to our match-3 game. The exercise will give you several pieces that should give you the first steps toward implementation of Project 03.
+This exercise is the first opportunity for you to experiment with juicy features to our match-3 game. The exercise will provide you with several features that should move you towards the implementation of Project 03.
 
 Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-03a-Color-and-Particles. Edit the LICENSE and replace BL-MSCH-C220-F21 with your full name. Commit your changes.
 
