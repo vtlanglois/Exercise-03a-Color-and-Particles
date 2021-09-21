@@ -84,7 +84,7 @@ As the piece is highlighted, it should now cause the particle emitter to start u
 
 Next, we need to create derivitive scenes to serve as the tiles in our game. Under the Scene menu, select New Inherited Scene. Find and select res://Pieces/Piece.tscn. An unsaved copy of the Piece scene will now open.
 
-In the Sprite node, replace the placeholder Texture with res://Assets/chick.png. Save the scene as res://Pieces/Chick.tscn (pay attention to the capitalization, the spelling, and the file extension). Then repeat that process with the following images (and file names):
+In the Sprite node, replace the placeholder Texture with res://Assets/chick.png. Select the Piece node and, in the Inspector, update set the Color field = Chick. Save the scene as res://Pieces/Chick.tscn (pay attention to the capitalization, the spelling, and the file extension). Then repeat that process with the following images (Piece->Color field, and file names):
  * Duck
  * Elephant
  * Parrot
