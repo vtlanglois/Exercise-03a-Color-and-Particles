@@ -13,14 +13,14 @@ func _ready():
 	$Select.scale = $Sprite.scale
 
 func _physics_process(_delta):
+	if selected:
+		$Select.show()
+		$Selected.emitting = true
+	else:
+		$Select.hide()
+		$Selected.emitting = false
 	if dying:
 		queue_free()
-		if selected:
-			$Select.show()
-			$Selected.emitting = true
-		else:
-			$Select.hide()
-			$Selected.emitting = false
 		
 
 func move_piece(change):
